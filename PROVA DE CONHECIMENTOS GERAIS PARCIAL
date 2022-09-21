@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-color: whit;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 15px;
+ 
+}
+p2 {
+  font-family: verdana;
+  font-size: 13px;
+}
+.slidecontainer {
+  width: 100%;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 25px;
+  background:  #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider:hover {
+  opacity: 1;
+  }
+</style>
+</head>
+<body>
+
+<h1>Prova de Conhecimento Gerais</h1>
+<p>Responda todas as questões, utilize rascunhos em papel em papel para realizar os cálculos. Os rascunhos serão recolhidos pelo professora após a quarentena </p><br>
+Informações do aluno
+<fieldset style="width:500px; height: 200px;">
+
+<input type="text" class="form-control" id="ec-mobile-number" aria-describedby="emailHelp"
+                              placeholder="Digite o seu Nome" /><br><br>
+<input type="text" class="form-control" id="ec-mobile-number" aria-describedby="emailHelp"
+                              placeholder="Numero de pessoas no grupo" /><br><br>
+<input type="text" class="form-control" id="ec-mobile-number" aria-describedby="emailHelp"
+                              placeholder="Digite seu Emial" /><br><br> 
+ <p2>Data de Nascimento</p2><br><input type="date"><br>
+<p2>Digite uma senha para acessar os dados de pesquisa posteriormente</p2><br>
+<input type="text" class="form-control" id="ec-mobile-number" aria-describedby="emailHelp"
+                              placeholder="Digite seu Emial" /><br><br> 
+Matemática
+<fieldset style="width:500px; height: 160px;">
+3+3=
+<input type="text" class="form-control" id="ec-mobile-number" aria-describedby="emailHelp"
+                              placeholder="Resposta:" /><br><br>
+10/3=
+<input type="text" class="form-control" id="ec-mobile-number" aria-describedby="emailHelp"
+                              placeholder="Resposta:" /><br><br>
+5*2=
+<input type="text" class="form-control" id="ec-mobile-number" aria-describedby="emailHelp"
+                              placeholder="Resposta:" /><br><br>
+<div class="slidecontainer">
+  <p2>Essa tarefa foi facil?</p2><br>
+  <input type="range" min="1" max="100" value="50"><br><br><br>
+  Opinião quanto a utilização
+  <fieldset style="width:600px; height: 300px;">
+  <img src="https://fundacaotelefonicavivo.org.br/wp-content/webp-express/webp-images/uploads/2021/05/lingua-portuguesa-1200px-materia.jpg.webp?x53362" width="300" height="150">
+</body>
+</html>
