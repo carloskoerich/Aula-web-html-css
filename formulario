@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+
+  background-color: lightwhite;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 15px;
+}
+</style>
+</head>
+<body>
+<fieldset>
+<h1>Formulario</h1>
+<fieldset>
+<p><label for="fname">Nome completo:</label><br>
+  <input type="text" class="form-control" id="ec-mobile-number" aria-describedby="emailHelp"
+                              placeholder="Digite o seu Nome" />
+</p>
+<p><label for="fname">Email principal:</label><br>
+  <input type="text" class="form-control" id="ec-mobile-number" aria-describedby="emailHelp"
+                              placeholder="Digite seu email" /><br>
+ <button>Enviar</button>
+ <fieldset>
+<form name="input"
+action="html_form_action.asp"
+method="get">
+Eu uso windows: 
+<input type="checkbox"
+name="bike" checked>
+<br>
+Eu uso linux: 
+<input type="checkbox" name="car">
+<br>Eu uso MacOS: 
+<input type="checkbox" name="car">
+<br>
+<input type="submit" value="Enviar"><br><br>
+<input type="submit" value="Enviar"><br><br>
+Qual o seu sexo?<br>
+<form name="input"
+action="html_form_action.asp"
+method="get">
+Masculino: 
+<input type="radio" name="Sex"
+value="male" checked>
+<br>
+Feminino: 
+<input type="radio" name="Sex"
+value="female">
+<br>
+Outro
+<input type="radio" name="Sex"
+value="male" checked><br>
+<input type ="submit"
+value ="Enviar Agora!"><br><br>
+
+Nome completo:<br>
+<input type="text" name="name"
+value="Seu nome" size="20">
+<br>
+Correio eletrônico (e-mail):<br>
+<input type="text" name="mail"
+value="Seu Email" size="20">
+<br>
+Coloque uma observação:<br>
+<input type="text" name="comment"
+value="Coloque um comentario" size="40">
+<br><br>
+ <input type="submit" value="Enviar">
+<input type="reset" value="Limpar"><br><br>
+
+<div>
+    <label for="username">Nome de Usuário:</label>
+    <input type="text" id="username" name="username">
+</div>
+<div>
+    <label for="pass">Senha (mínimo 9 caracteres):</label>
+    <input type="password" id="pass" name="password"
+           minlength="8" required>
+</div>
+<input type="submit" value="Sign in">
+</form> 
+</p>
+</body>
+</html>
